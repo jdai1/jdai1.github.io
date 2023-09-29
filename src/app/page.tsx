@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -72,13 +74,13 @@ export default function Home() {
           >
             Linkedin
           </a>
-          <a
+          <Link
             className="ml-8 mr-8 hover:underline font-mono"
-            href="../../public/JDai Resume.pdf"
+            href="/resume.pdf"
             target="_blank"
           >
             Resume
-          </a>
+          </Link>
         </div>
       </footer>
     </>
