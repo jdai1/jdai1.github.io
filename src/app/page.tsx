@@ -9,39 +9,41 @@ export default function Home() {
         <div className="m-20 items-center w-5/6">
           <div>
             <p className="mb-4 text-md opacity-75">
-              Hello! My name is Julian Dai.
+              Hello! My name is <strong>Julian Dai</strong>.
             </p>
             <p className="mb-4 text-md opacity-75">
-              I am currently an undergraduate student studying mathematics and
-              computer science at Brown University. This summer, I joined Atlas,
-              a systems lab @ Brown run by prof. Nikos Vasilakis. As a member of
-              the lab, I contribute towards projects aiming to automate
-              protections against software supply-chain threats, specifically in
-              the Javascript ecosystem.
+              I am currently an undergraduate student studying{" "}
+              <strong>math</strong> and <strong>computer science</strong> at{" "}
+              <strong>Brown University</strong>. This summer, I joined{" "}
+              <strong>Atlas</strong>, a systems lab @ Brown run by Prof. Nikos
+              Vasilakis. As a member of the lab, I contribute towards projects
+              aiming to automate protections against software supply-chain
+              threats, specifically in the Javascript ecosystem.
             </p>
             <p className="mb-4 text-md opacity-75">
               Right now, my plan is to learn more about systems and cloud
-              related areas, like distributed systems, OS and virtualization,
-              but I&apos;m also eager to explore new domains with equally
-              motivating and meaningful problems to solve.
+              related areas, like distributed systems and virtualization, but
+              I&apos;m also eager to explore new domains, especially those with
+              meaningful problems. Future research interests might include deep
+              learning and computer vision, databases, and programming
+              languages.
             </p>
-            <p className="text-md opacity-75">
-              Outside of everything else, I like to
+            <p className="mb-4 text-md opacity-75">
+              Outside of work, you&apos;ll find me unwinding by playing tennis
+              and chess, reading novels and philsophy, and enjoying the great
+              outdoors—I especially love to fish and hike!
             </p>
-            <ul className="list-disc ml-4">
-              <li className="text-md opacity-75">
-                Play tennis. Shout out Brown Club Tennis.
-              </li>
-              <li className="text-md opacity-75">
-                Read. I&apos;ll read whatever. My favorites are Infinite Jest by
-                David Foster Wallace, Men Without Women by Haruki Murakami, and
-                An Abundance of Katherines by John Green.
-              </li>
-              <li className="text-md opacity-75">
-                Enjoy the great outdoors. To me, the outdoors is a never ending
-                source of inspiration and beauty. I love hiking and fishing.
-              </li>
-            </ul>
+            <p className="mb-4 text-md opacity-75">
+              If you&apos;re looking to connect, please reach out! I&apos;m most
+              easily reachable by{" "}
+              <strong>
+                <a className="underline" href="mailto: julian_dai@brown.edu">
+                  email
+                </a>
+              </strong>
+              .
+            </p>
+            <p className="mb-4 text-md opacity-75"></p>
           </div>
         </div>
       </div>
