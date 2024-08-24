@@ -1,7 +1,7 @@
 export default function page() {
   return (
     <div>
-      <p className="mb-4 text-md opacity-75">
+      {/* <p className="mb-4 text-md opacity-75">
         Hello! (This was last updated on 8/24/2024)
       </p>
       <p className="mb-4 text-md opacity-75">
@@ -19,7 +19,7 @@ export default function page() {
         Vasilakis. As a member of the lab, I contribute towards projects aiming
         to automate protections against software supply-chain threats,
         specifically in the Javascript ecosystem.
-      </p>
+      </p> */}
       <p className="mb-4 text-md opacity-75">
         Outside of work, you&apos;ll find me unwinding by playing tennis and
         chess, reading novels and philsophy, and enjoying the great outdoors—I
