@@ -4,9 +4,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// import { useState } from "react";
-import { albumFiles } from "../../../utility/helpers";
-
 function splitToNChunks(array: Array<any>, n: number) {
   let result = [];
   for (let i = n; i > 0; i--) {
@@ -18,8 +15,8 @@ function splitToNChunks(array: Array<any>, n: number) {
 export default function Album() {
   //   const [chunks, setChunks] = useState<number>(4);
 
-  const albumChunks = splitToNChunks(albumFiles, 4);
-  console.log(albumChunks);
+  // const albumChunks = splitToNChunks(albumFiles, 4);
+
   return (
     <>
       <h1 className="text-lg font-semibold">Trips</h1>
