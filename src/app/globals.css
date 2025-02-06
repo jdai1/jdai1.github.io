@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --navy-primary: #001f3f;
+  --navy-secondary: #003366;
+  --navy-accent: #0047AB;
+  --text-primary: #2C3E50;
+  --background-primary: #FFFFFF;
+  --background-secondary: #F8F9FA;
+}
+
+@layer base {
+  body {
+    @apply bg-background-primary text-text-primary;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply font-mono hover:text-navy-accent transition-colors duration-200;
+  }
+  
+  .section-title {
+    @apply text-2xl font-semibold text-navy-primary mb-4;
+  }
+  
+  .card {
+    @apply bg-background-secondary p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+  
+  .button {
+    @apply bg-navy-primary text-white px-4 py-2 rounded hover:bg-navy-secondary transition-colors duration-200;
+  }
+}

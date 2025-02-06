@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'navy-primary': 'var(--navy-primary)',
+        'navy-secondary': 'var(--navy-secondary)',
+        'navy-accent': 'var(--navy-accent)',
+        'text-primary': 'var(--text-primary)',
+        'background-primary': 'var(--background-primary)',
+        'background-secondary': 'var(--background-secondary)',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
