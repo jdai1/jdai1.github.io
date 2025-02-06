@@ -13,7 +13,7 @@
 
 @layer base {
   body {
-    @apply bg-background-primary text-text-primary;
+    @apply bg-background-primary text-text-primary text-lg;
   }
 }
 
