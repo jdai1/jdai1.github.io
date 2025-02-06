@@ -8,7 +8,7 @@ export default function Album() {
       <Link href="/" className="text-blue-600 hover:text-blue-800 mb-4 inline-block">
         ← Back to Home
       </Link>
-      <h1 className="text-lg font-semibold">Ablums</h1>
+      <h1 className="text-lg font-semibold">Albums</h1>
       <div>
         <ul className="list-disc ml-5">
           <li>

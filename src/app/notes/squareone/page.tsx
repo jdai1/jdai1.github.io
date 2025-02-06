@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function SquareOneNote() {
   return (
     <div className="p-4">
-      <Link href="/" className="text-blue-600 hover:text-blue-800 mb-4 inline-block">
-        ← Back to Home
+      <Link href="/notes" className="text-blue-600 hover:text-blue-800 mb-4 inline-block">
+        ← Back to Notes
       </Link>
       <h1 className="section-title">Square One</h1>
       <div>
