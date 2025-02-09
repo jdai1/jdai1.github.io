@@ -1,0 +1,17 @@
+ytd-rich-grid-renderer { 
+    display: none;
+}
+
+ytd-item-section-renderer {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+ytd-item-section-renderer:hover {
+    opacity: 1;
+}
+
+div.style-scope.ytd-watch-next-secondary-results-renderer {
+    display: none;
+}
+  

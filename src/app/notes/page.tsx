@@ -11,13 +11,13 @@ export default function Note() {
       </Link>
       <div className="p-4">
         <h2>Posts</h2>
-        <ul className="list-disc ml-5">
+        <ul className="list-disc ml-5 space-y-2">
           <li><Link href="/notes/squareone" className="text-blue-600 hover:text-blue-800">Square One</Link></li>
         </ul>
       </div>
       <div className="p-4">
         <h2>Media</h2>
-        <ul className="list-disc ml-5">
+        <ul className="list-disc ml-5 space-y-2">
           <li>Solo Leveling</li>
           <li>Blue Lock</li>
           <li>Kaiju No. 8</li>
@@ -33,7 +33,7 @@ export default function Note() {
       </div>
       <div className="p-4">
         <h2>Reading List</h2>
-        <ul className="list-disc ml-5">
+        <ul className="list-disc ml-5 space-y-2">
           <li>https://www.lesswrong.com/posts/B7P97C27rvHPz3s9B/gears-in-understanding</li>
           <li>https://www.benkuhn.net/outliers/</li>
           <li>https://www.benkuhn.net/writing/#:~:text=In%20my%20opinion%2C%20the%20strongest,which%20will%20make%20your%20existing</li>
