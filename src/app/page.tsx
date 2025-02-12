@@ -20,11 +20,6 @@ export default function Home() {
             Notes
           </a>
         </li>
-        <li>
-          <a href="/photos" className="hover:underline">
-            Albums
-          </a>
-        </li>
       </ul>
     </div>
   );
