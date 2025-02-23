@@ -9,7 +9,7 @@ export default function ClichesNote() {
       >
         ← Back to Notes
       </Link>
-      <h1 className="section-title">Infinite Jest: Clichés and Default Settings</h1>
+      <h1 className="section-title">Clichés are life or death</h1>
       <h2 className="text-gray-500 text-lg mb-6">2/22/2025</h2>
       <div className="space-y-6 text-md opacity-75">
         <p>
