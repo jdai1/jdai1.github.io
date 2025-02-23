@@ -3,8 +3,7 @@ export default function Home() {
     <div className="space-y-4">
       <section>
         <p className="text-lg text-text-primary">
-          Hi! I'm Julian. This website is an experiment to see if maintaining a clean environment
-          on the internet will encourage me to write and share my thoughts more freely and frequently.
+          Hi! I'm Julian.
           
         </p>
       </section>
