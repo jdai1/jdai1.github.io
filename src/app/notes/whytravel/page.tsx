@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function SelfStudyNote() {
+export default function WhyTravelNote() {
   return (
     <div className="p-4">
       <Link

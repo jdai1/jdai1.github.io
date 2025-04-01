@@ -24,26 +24,25 @@ export default function Note() {
       <div className="p-4">
         <h2>Media</h2>
         <ul className="list-disc ml-5 space-y-2">
-          <li>Solo Leveling</li>
-          <li>Blue Lock</li>
-          <li>Kaiju No. 8</li>
-          <li>The Hard Things About Hard Things</li>
-          <li>Secrets of Sandhill Road</li>
-          <li>Gintama</li>
-          <li>Man-Eating Cats</li>
-          <li>Beautiful World, Where Are You</li>
-          <li>This is Water</li>
-          <li>Infinite Jest</li>
-          <li>An Abundance of Katherines</li>
+          <li><Link href="/notes/gintama" className="text-blue-600 hover:text-blue-800">Gintama</Link></li>
+          <li><Link href="/notes/maneatingcats" className="text-blue-600 hover:text-blue-800">Man-Eating Cats</Link></li>
+          <li><Link href="/notes/bluelock" className="text-blue-600 hover:text-blue-800">Blue Lock</Link></li>
+          <li><Link href="/notes/andrewyang" className="text-blue-600 hover:text-blue-800">Andrew Yang</Link></li>
+          <li><Link href="/notes/jjk" className="text-blue-600 hover:text-blue-800">Jujutsu Kaisen</Link></li>
+          <li><Link href="/notes/hxh" className="text-blue-600 hover:text-blue-800">Hunter X Hunter</Link></li>
         </ul>
       </div>
       <div className="p-4">
-        <h2>Reading List</h2>
+        <h2>Reading</h2>
         <ul className="list-disc ml-5 space-y-2">
-          <li>https://www.lesswrong.com/posts/B7P97C27rvHPz3s9B/gears-in-understanding</li>
-          <li>https://www.benkuhn.net/outliers/</li>
-          <li>https://www.benkuhn.net/writing/#:~:text=In%20my%20opinion%2C%20the%20strongest,which%20will%20make%20your%20existing</li>
-          <li>https://tbenthompson.com/post/maintaining_momentum/</li>
+          <li>Reinforcement Learning: An Introduction</li>
+          <li>A Philosophy of Software Design</li>
+          <li>The Hard Things About Hard Things</li>
+          <li>Secrets of Sandhill Road</li>
+          <li>Beautiful World, Where Are You</li>
+          <li>Normal People</li>
+          <li>Infinite Jest/This is Water</li>
+          <li>An Abundance of Katherines</li>
         </ul>
       </div>
     </div>
