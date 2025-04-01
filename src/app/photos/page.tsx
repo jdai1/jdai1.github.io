@@ -12,6 +12,11 @@ export default function Album() {
       <div>
         <ul className="list-disc ml-5">
           <li>
+            <Link href="/photos/sf2025" className="hover:text-blue-600">
+              SF - March 2025
+            </Link>
+          </li>
+          <li>
             <Link href="/photos/japan" className="hover:text-blue-600">
               Japan - Jan 2025
             </Link>
@@ -22,7 +27,7 @@ export default function Album() {
             </Link>
           </li>
           <li>
-            <Link href="/photos/california" className="hover:text-blue-600">
+            <Link href="/photos/california2024" className="hover:text-blue-600">
               California - Jan 2024
             </Link>
           </li>

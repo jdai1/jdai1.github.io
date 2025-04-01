@@ -40,8 +40,9 @@ export default function AlbumPage({ params }: Props) {
 
 export function generateStaticParams() {
   return [
+    { album: 'sf2025' },
     { album: 'NH' },
-    { album: 'california' },
+    { album: 'california2024' },
     { album: 'japan' },
     { album: '2022' },
     { album: 'bolt' },

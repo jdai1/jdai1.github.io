@@ -12,6 +12,10 @@ export default function Note() {
       <div className="p-4">
         <h2>Posts</h2>
         <ul className="list-disc ml-5 space-y-2">
+        <li><Link href="/notes/trust" className="text-blue-600 hover:text-blue-800"></Link></li>
+          <li><Link href="/notes/slackvsdiscord" className="text-blue-600 hover:text-blue-800"></Link></li>
+          <li><Link href="/notes/probvscalc" className="text-blue-600 hover:text-blue-800"></Link></li>
+          <li><Link href="/notes/whytravel" className="text-blue-600 hover:text-blue-800">3/22/2025 - Why Travel</Link></li>
           <li><Link href="/notes/selfstudy" className="text-blue-600 hover:text-blue-800">3/3/2025 - Self-studying Classes</Link></li>
           <li><Link href="/notes/cliches" className="text-blue-600 hover:text-blue-800">2/22/2025 - Clichés</Link></li>
           <li><Link href="/notes/browncsadvice" className="text-blue-600 hover:text-blue-800">2/11/2025 - Advice for Brown CS students</Link></li>
