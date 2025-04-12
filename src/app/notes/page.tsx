@@ -24,6 +24,7 @@ export default function Note() {
       <div className="p-4">
         <h2>Media</h2>
         <ul className="list-disc ml-5 space-y-2">
+          <li><Link href="/notes/chesky" className="text-blue-600 hover:text-blue-800">Brian Chesky</Link></li>
           <li><Link href="/notes/gintama" className="text-blue-600 hover:text-blue-800">Gintama</Link></li>
           <li><Link href="/notes/maneatingcats" className="text-blue-600 hover:text-blue-800">Man-Eating Cats</Link></li>
           <li><Link href="/notes/bluelock" className="text-blue-600 hover:text-blue-800">Blue Lock</Link></li>
