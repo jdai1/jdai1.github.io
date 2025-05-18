@@ -12,6 +12,7 @@ export default function Note() {
       <div className="p-4">
         <h2>Posts</h2>
         <ul className="list-disc ml-5 space-y-2">
+          <li><Link href="/notes/firstweekatramp" className="text-blue-600 hover:text-blue-800">5/17/2025 - Some reflections on my first week at ramp</Link></li>
           <li><Link href="/notes/research" className="text-blue-600 hover:text-blue-800">4/29/2025 - Research</Link></li>
           <li><Link href="/notes/whytravel" className="text-blue-600 hover:text-blue-800">3/22/2025 - Why Travel</Link></li>
           <li><Link href="/notes/selfstudy" className="text-blue-600 hover:text-blue-800">3/3/2025 - Self-studying Classes</Link></li>
