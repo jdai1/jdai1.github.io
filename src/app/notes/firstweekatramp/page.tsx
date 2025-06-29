@@ -87,7 +87,7 @@ export default function FirstWeekAtRampNote() {
         <p>
           Ever since I've gotten to NYC, I've been getting 1-2 hours less sleep than I usually do (potentially due to my blind being ineffective at keeping my room dark in the early morning). That, combined with my excitement for being at Ramp and working longer hours than I'd originally anticipated could brew into something bad.
         </p>
-
+´
         <p>
           I've added cardboard to help the window situation. I can be a bit of a workaholic too, so being mindful of how I'm resting and recovering will be important.
         </p>
