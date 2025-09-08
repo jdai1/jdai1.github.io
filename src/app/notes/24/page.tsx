@@ -11,7 +11,7 @@ export default function TwentyFourNote() {
       </Link>
       <h1 className="section-title">Everybody has the same 24 hours</h1>
       <h2 className="text-gray-500 text-lg mb-6">2/9/2025</h2>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <h2 className="text-xl font-bold">Time Turner</h2>
         <p>
           In Harry Potter and the Prisoner of Azkaban, Hermione, being the mega-nerd she is, maxes out the courses she can take during her 3rd year at Hogwarts. However, since some classes take place at the exact same time as other classes, Professor McGonagall gives Hermione a{" "}

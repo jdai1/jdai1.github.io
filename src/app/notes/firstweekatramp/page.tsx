@@ -11,7 +11,7 @@ export default function FirstWeekAtRampNote() {
       </Link>
       <h1 className="section-title">Some reflections on my first week at ramp</h1>
       <h2 className="text-gray-500 text-lg mb-6">5/17/2025</h2>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
           Prefacing these notes by mentioning that since Ramp is my corporate job, my point of reference for building software is mostly drawn from my experience building ATA.
         </p>

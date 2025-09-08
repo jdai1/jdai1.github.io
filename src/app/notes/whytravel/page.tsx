@@ -11,7 +11,7 @@ export default function WhyTravelNote() {
       </Link>
       <h1 className="section-title">Why Travel</h1>
       <h2 className="text-gray-500 text-lg mb-6">4/1/2025</h2>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
           To see family<br />
           To see old friends<br />

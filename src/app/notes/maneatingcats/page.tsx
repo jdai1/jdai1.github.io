@@ -10,7 +10,7 @@ export default function ManEatingCatsMediaNote() {
         ← Back to Notes
       </Link>
       <h1 className="section-title">Man-Eating Cats</h1>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
         I can't recall exactly what we talked about, but we found a million topics and could have talked forever. With a laserlike clarity I could grasp everything she wanted to say. And things I couldn't explain well to anyone else came across to her with an exactness that took me by surprise. We were both married, with no major complaints about our married lives. We loved our spouses and respected them. Still, this was on the order of a minor miracle—running across someone you express your feelings to so clearly, so completely. Most people go their entire lives without meeting a person like that. It would have been a mistake to label this "love." It was more like total empathy.
         </p>

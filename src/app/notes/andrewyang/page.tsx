@@ -10,7 +10,7 @@ export default function AndrewYangMediaNote() {
         ← Back to Notes
       </Link>
       <h1 className="section-title">Andrew Yang</h1>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
         In the spring of 2025, Andrew Yang came back to Brown to deliver a talk at his alma mater. This particular thing he said stuck out to me:
         </p>

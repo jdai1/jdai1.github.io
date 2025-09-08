@@ -10,7 +10,7 @@ export default function HXHMediaNote() {
         ← Back to Notes
       </Link>
       <h1 className="section-title">Hunter X Hunter</h1>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
         You should enjoy the little detours. To the fullest. Because that's where you'll find the things more important than what you want.
         </p>

@@ -10,7 +10,7 @@ export default function BlueLockMediaNote() {
         ← Back to Notes
       </Link>
       <h1 className="section-title">Blue Lock</h1>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
         When things don't go the way they're planned, your average joe will start to panic and find comfort in their source of failure, such is a mindset of a loser. But a winner sees a challenge.
         </p>

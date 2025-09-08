@@ -12,7 +12,7 @@ export default function SquareOneNote() {
       <h1 className="section-title">Square One</h1>
       <h2 className="text-gray-500 text-lg mb-6">2/5/2025</h2>
       <div>
-        <div className="space-y-6 text-md opacity-75">
+        <div className="space-y-6 text-md">
           <p>
             I really enjoy reading blogs. To me, blogs strike a happy medium in
             between long form content like books and short form content like

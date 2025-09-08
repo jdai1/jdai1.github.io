@@ -10,7 +10,7 @@ export default function BlueLockMediaNote() {
         ← Back to Notes
       </Link>
       <h1 className="section-title">Blue Lock</h1>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
             [fill in later]
         </p>

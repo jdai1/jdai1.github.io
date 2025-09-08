@@ -11,7 +11,7 @@ export default function ResearchNote() {
       </Link>
       <h1 className="section-title">Research wasn't for me</h1>
       <h2 className="text-gray-500 text-lg mb-6">4/29/2025</h2>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
           Nearing the end of my freshman year of college, since I couldn't find any internships, conventional wisdom led me to cold email professors in an attempt to do research with them, despite having no real idea or expertise about the areas these professors worked in. Nevertheless, I got interest back from both professors, and ended up going with one of them. One of the good things about Brown's computer science department is that most labs are open to getting undergrads involved in research.
         </p>

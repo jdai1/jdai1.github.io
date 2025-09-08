@@ -3,15 +3,9 @@ import Link from "next/link";
 export default function ClichesNote() {
   return (
     <div className="p-4">
-      <Link
-        href="/notes"
-        className="text-blue-600 hover:text-blue-800 mb-4 inline-block"
-      >
-        ← Back to Notes
-      </Link>
       <h1 className="section-title">Clichés are life or death</h1>
       <h2 className="text-gray-500 text-lg mb-6">2/22/2025</h2>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
           "That the most obvious, important realities are often the ones that are hardest to see and talk about. Stated as an English sentence, of course, this is just a banal platitude, but the fact is that in the day to day trenches of adult existence, banal platitudes can have a life or death importance, or so I wish to suggest to you on this dry and lovely morning." - DFW
         </p>

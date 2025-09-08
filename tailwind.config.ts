@@ -13,8 +13,10 @@ const config: Config = {
         'navy-secondary': 'var(--navy-secondary)',
         'navy-accent': 'var(--navy-accent)',
         'text-primary': 'var(--text-primary)',
+        'text-secondary': 'var(--text-secondary)',
         'background-primary': 'var(--background-primary)',
         'background-secondary': 'var(--background-secondary)',
+        'border-color': 'var(--border-color)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

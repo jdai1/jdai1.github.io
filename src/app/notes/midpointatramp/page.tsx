@@ -10,7 +10,7 @@ export default function MidpointAtRampNote() {
         ← Back to Notes
       </Link>
       <h1 className="section-title">Midpoint reflections at Ramp</h1>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
           It's now the official midpoint way (week 7) of my 12-week internship. Time for some reflections!
         </p>

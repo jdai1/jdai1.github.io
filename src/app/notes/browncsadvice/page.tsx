@@ -11,7 +11,7 @@ export default function ClassAdviceNote() {
       </Link>
       <h1 className="section-title">Advice for Brown CS students</h1>
       <h2 className="text-gray-500 text-lg mb-6">2/11/2025</h2>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
           This blog post is advice for current and prospective Brown students who are thinking about concentrating in math or computer science.
         </p>

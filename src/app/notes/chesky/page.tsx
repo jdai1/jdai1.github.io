@@ -10,7 +10,7 @@ export default function CheskyMediaNote() {
         ← Back to Notes
       </Link>
       <h1 className="section-title">Product Releases and the Job of a CEO</h1>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
         CEOs should review all the work
         </p>

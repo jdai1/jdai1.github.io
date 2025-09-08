@@ -3,17 +3,40 @@
 @tailwind utilities;
 
 :root {
-  --navy-primary: #001f3f;
-  --navy-secondary: #003366;
-  --navy-accent: #0047AB;
-  --text-primary: #2C3E50;
-  --background-primary: #FFFFFF;
-  --background-secondary: #F8F9FA;
+  --navy-primary: #1a202c;
+  --navy-secondary: #2d3748;
+  --navy-accent: #4299e1;
+  --text-primary: #2d3748;
+  --text-secondary: #718096;
+  --background-primary: #ffffff;
+  --background-secondary: #f7fafc;
+  --border-color: #e2e8f0;
 }
 
 @layer base {
   body {
-    @apply bg-background-primary text-text-primary text-lg;
+    @apply bg-background-primary text-text-primary;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-navy-primary font-semibold;
+    line-height: 1.3;
+  }
+  
+  h1 { @apply text-3xl mb-6; }
+  h2 { @apply text-2xl mb-5; }
+  h3 { @apply text-xl mb-4; }
+  
+  p {
+    @apply mb-4 text-text-primary;
+  }
+  
+  a {
+    @apply text-navy-accent hover:text-navy-secondary transition-colors duration-200;
   }
 }
 

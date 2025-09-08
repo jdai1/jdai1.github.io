@@ -11,7 +11,7 @@ export default function SelfStudyNote() {
       </Link>
       <h1 className="section-title">Self-studying Classes</h1>
       <h2 className="text-gray-500 text-lg mb-6">3/3/2025</h2>
-      <div className="space-y-6 text-md opacity-75">
+      <div className="space-y-6 text-md">
         <p>
           To be honest, the content in most CS classes (especially after you get through the intro sequences and have a solid foundation) at Brown isn't beyond the realm of self-studying, but most people don't do it, because self-learning an entire course worth of content is hard:
         </p>
