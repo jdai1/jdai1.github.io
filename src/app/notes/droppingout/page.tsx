@@ -195,10 +195,9 @@ export default function DroppingOutNote() {
         <p>
           One thing I've found myself repeatedly having to do is to explain
           myself. Amusingly, people have really had a lot of mixed reactions,
-          from enthusiastic congratulations to raised eyebrows. It's far too
-          early to pass judgement on if this decision is right or wrong, but I
-          think an important reminder is that my actions from this point on can
-          make it the right one.
+          from enthusiastic congratulations to raised eyebrows. It's a good
+          reminder—and maybe even a chip on my shoulder—to prove that the
+          decision I'm making really is the right one.
         </p>
         <p>
           If you find yourself in a similar position as I was this summer, I
