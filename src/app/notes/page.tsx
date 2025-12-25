@@ -7,6 +7,11 @@ export default function Note() {
       <div className="text-text-primary">
         <div className="space-y-6">
           <div className="flex items-center">
+            <span className="text-gray-500 w-20 text-sm">12/31/2025</span>
+            <span className="text-gray-400 mx-3">|</span>
+            <Link href="/notes/2025" className="text-gray-900 hover:underline">2025</Link>
+          </div>
+          <div className="flex items-center">
             <span className="text-gray-500 w-20 text-sm">8/15/2025</span>
             <span className="text-gray-400 mx-3">|</span>
             <Link href="/notes/droppingout" className="text-gray-900 hover:underline">Dropping out... kinda</Link>
