@@ -6,13 +6,13 @@ export default function Media() {
       <h2 className="section-title mb-2">Snippets</h2>
       <div className="text-lg text-text-primary space-y-4">
         <ul className="list-disc pl-6 space-y-2">
-          <li><Link href="/notes/chesky" className="text-blue-600 hover:text-blue-800">Brian Chesky</Link></li>
-          <li><Link href="/notes/gintama" className="text-blue-600 hover:text-blue-800">Gintama</Link></li>
-          <li><Link href="/notes/maneatingcats" className="text-blue-600 hover:text-blue-800">Man-Eating Cats</Link></li>
-          <li><Link href="/notes/bluelock" className="text-blue-600 hover:text-blue-800">Blue Lock</Link></li>
-          <li><Link href="/notes/andrewyang" className="text-blue-600 hover:text-blue-800">Andrew Yang</Link></li>
-          <li><Link href="/notes/jjk" className="text-blue-600 hover:text-blue-800">Jujutsu Kaisen</Link></li>
-          <li><Link href="/notes/hxh" className="text-blue-600 hover:text-blue-800">Hunter X Hunter</Link></li>
+          <li><Link href="/media/chesky" className="text-blue-600 hover:text-blue-800">Brian Chesky</Link></li>
+          <li><Link href="/media/gintama" className="text-blue-600 hover:text-blue-800">Gintama</Link></li>
+          <li><Link href="/media/maneatingcats" className="text-blue-600 hover:text-blue-800">Man-Eating Cats</Link></li>
+          <li><Link href="/media/bluelock" className="text-blue-600 hover:text-blue-800">Blue Lock</Link></li>
+          <li><Link href="/media/andrewyang" className="text-blue-600 hover:text-blue-800">Andrew Yang</Link></li>
+          <li><Link href="/media/jjk" className="text-blue-600 hover:text-blue-800">Jujutsu Kaisen</Link></li>
+          <li><Link href="/media/hxh" className="text-blue-600 hover:text-blue-800">Hunter X Hunter</Link></li>
         </ul>
       </div>
       <h2 className="section-title mt-8 mb-2">Books</h2>

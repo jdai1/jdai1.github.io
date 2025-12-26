@@ -4,10 +4,10 @@ export default function GintamaMediaNote() {
   return (
     <div className="p-4">
       <Link
-        href="/notes"
+        href="/media"
         className="text-blue-600 hover:text-blue-800 mb-4 inline-block"
       >
-        ← Back to Notes
+        ← Back to Media
       </Link>
       <h1 className="section-title">Gintama</h1>
       <div className="space-y-6 text-md">
@@ -21,3 +21,4 @@ export default function GintamaMediaNote() {
     </div>
   );
 }
+
