@@ -63,6 +63,20 @@ export default function Note() {
           </div>
         </div>
       </div>
+      <div className="mt-8 pt-6 border-t border-gray-200">
+        <p className="text-sm text-gray-600">
+          Fill out {" "}
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdyeOhf_1rM0clHz22q-4Z82cQJP1dB09ltgJFaUPJdJKyi_A/viewform?usp=dialog" 
+            className="text-blue-600 hover:text-blue-800 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            this
+          </a>
+          {" "} form if you want to get an email when something new gets posted.
+        </p>
+      </div>
     </div>
   );
 }
