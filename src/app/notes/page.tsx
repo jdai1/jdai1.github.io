@@ -7,6 +7,11 @@ export default function Note() {
       <div className="text-text-primary">
         <div className="space-y-6">
           <div className="flex items-center">
+            <span className="text-gray-500 w-20 text-sm">6/14/2026</span>
+            <span className="text-gray-400 mx-3">|</span>
+            <Link href="/notes/cooking" className="text-gray-900 hover:underline">Cooking as a default action</Link>
+          </div>
+          <div className="flex items-center">
             <span className="text-gray-500 w-20 text-sm">6/2/2026</span>
             <span className="text-gray-400 mx-3">|</span>
             <Link href="/notes/momentum" className="text-gray-900 hover:underline">Momentum</Link>
