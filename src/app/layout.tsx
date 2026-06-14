@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Link from "next/link";
+import Script from "next/script";
 import TopNavigation from "./components/TopNavigation";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,6 +21,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Script
+        defer
+        src="https://cloud.umami.is/script.js"
+        data-website-id="944530b8-d1de-45e3-80d0-5eebbd907bf2"
+        strategy="afterInteractive"
+      />
       <body className={`${inter.className} min-h-screen flex flex-col`}>        
         <TopNavigation />
         <main className="flex-grow container mx-auto px-6 py-12">
