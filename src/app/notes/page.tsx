@@ -9,7 +9,7 @@ export default function Note() {
           <div className="flex items-center">
             <span className="text-gray-500 w-20 text-sm">8/2/2026</span>
             <span className="text-gray-400 mx-3">|</span>
-            <Link href="/notes/iris" className="text-gray-900 hover:underline">Iris and the blogosphere</Link>
+            <Link href="/notes/iris" className="text-gray-900 hover:underline">A tool to traverse the blogosphere</Link>
           </div>
           <div className="flex items-center">
             <span className="text-gray-500 w-20 text-sm">6/14/2026</span>

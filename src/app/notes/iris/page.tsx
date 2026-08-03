@@ -9,7 +9,7 @@ export default function IrisNote() {
       >
         ← Back to Notes
       </Link>
-      <h1 className="section-title">Iris and the blogosphere</h1>
+      <h1 className="section-title">A tool to traverse the blogosphere</h1>
       <h2 className="text-gray-500 text-lg mb-6">8/2/2026</h2>
       <div className="space-y-6 text-md">
         <p>
